@@ -1,0 +1,260 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container-fluid{
+    /*background-color: #f6e7e7;*/
+    border: 1px solid #EEEEEE;
+    padding: 0px;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    float: left;
+    z-index:99; /* 层叠顺序，数值越大就越高。页面滚动的时候就不会被其他内容所遮挡。 */
+}
+
+.layout{
+    /*background-color: #f9f9fc;*/
+}
+.jumbotron{
+    background-color: #f9f9fc !important;
+    /*margin-left: 1px;*/
+    /*margin-right: 1px;*/
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 1px;
+}
+
+.j2{
+    background-color: #34283d !important;
+}
+.t2{
+    color: #ffffff !important;
+}
+
+.j4{
+    background-color: #f9f9fc !important;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 1px;
+    width: 49.5%;
+    float: left ;
+}
+
+.j5{
+    background-color: #f9f9fc !important;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 1px;
+    width: 49.5%;
+    float: right;
+}
+.layout.title{
+    margin: auto;
+    text-align: center;
+    font-size: 55px;
+    letter-spacing: 5px;
+    font-family: SimSun-ExtB;
+    font-weight: bold;
+    float: left;
+}
+.layout.pic{
+    margin-left: 50px;
+
+}
+
+.s1{
+    float: left;
+}
+.s2{
+    float: left;
+}
+
+.jp{
+    background: #f9f9fc;
+}
+.hr{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.af{
+    color: #0f0f0f;
+}
+.f1{
+    text-align: center;
+}
+
+.cargotable{
+    margin: auto;
+    /*width: 9%;*/
+    width: 90%;
+    /*height: 850px;*/
+    /*不要设置高度，会变得不幸!*/
+    /*90%*/
+    /*height: 80%;*/
+    /*850px  = 10*80+50*/
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #ffffff;
+    /*border: 1px solid #000000;*/
+
+}
+.table1{
+    /*background-color: #d4eefd;*/
+    border-collapse:collapse;
+    border: 1px solid #000000;
+
+}
+
+.table2{
+    background-color: #efefff;
+    border-collapse:collapse;
+    border: 1px solid #000000;
+
+}
+
+.tablth{
+    margin: auto;
+    height: 50px;
+    text-align: center;
+    font-weight: bolder;
+    border-collapse:collapse;
+    border: 1px solid #000000;
+}
+
+.tabltd{
+    margin: auto;
+    height: 80px;
+    text-align: center;
+    font-weight: bolder;
+    border-collapse:collapse;
+    border: 1px solid #000000;
+    background-color: #d4eefd;
+}
+
+.tabltd2{
+    margin: auto;
+    height: 80px;
+    text-align: center;
+    font-weight: bolder;
+    border-collapse:collapse;
+    border: 1px solid #000000;
+    background-color: #efefff;
+}
+
+.tablehCargoName{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pageHead{
+    margin-left: 130px;
+    margin-bottom: 40px;
+    font-size: 55px;
+}
+
+.subPageHead{
+    font-size: 40px;
+}
+.pageBar{
+    margin-left: 35%;
+    /*text-align: center;*/
+    margin-top: 40px;
+}
+
+.pagebt{
+    margin-left: 20%;
+    text-align: center;
+}
+
+.tables{
+    margin-left: 20%;
+}
+
+.bspic{
+    float: left;
+    margin-left: 15%;
+    background-color: #ededef;
+}
+.bmst{
+    background-color: #efeff0;
+    /*float: right;*/
+}
+
+.bmb1{
+    margin-left: 72%;
+    margin-bottom: 18px;
+    height: 60px;
+    width: 380px;
+    text-align: center;
+    font-size: 30px;
+    table-layout: auto;
+    font-style: normal;
+    align-items: center;
+    border-collapse: collapse;
+    line-height: 55px;
+
+}
+.mmAcc{
+    background-color: #fdd9d9;
+    color: #0f0f0f;
+}
+
+.mmCar{
+    background-color: #f8f0c8;
+    color: #0f0f0f;
+}
+
+.mmDevC{
+    background-color: #bfffc7;
+    color: #0f0f0f;
+}
+
+.mmSeaR{
+    background-color: #caf5ff;
+    color: #0f0f0f;
+}
+
+.bmbbotText{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.adCargoForm{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.bt{
+    margin-left: 48%;
+}
+
+.usertable1{
+    margin-left: 15%;
+    margin-top: 3%;
+}
+.usert1{
+    text-align: center;
+    font-size: 20px;
+    /*border: 1px black solid;*/
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    height: 80px;
+    width: 160px;
+}
+
+.usert2{
+    text-align: center;
+    font-size: 20px;
+    /*border: 1px black solid;*/
+    border-bottom: black 1px solid;
+    height: 80px;
+    width: 480px;
+}
+
+.usermain{
+    background-color: #bce8f1;
+}
